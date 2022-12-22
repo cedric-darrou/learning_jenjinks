@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 int addition(int a, int b){
-  return(a+b);
+  //return(a+b);
+  return(12);
 }
 
 int main(int argc, char const *argv[]) {
