@@ -27,7 +27,7 @@ int calculate(int value1, int value2, char op){
 }
 
 int main(int argc, char *argv[]) {
-  double val1, val2, res;
+  double res;
   char *ptr;
   int arg = argc/2;
   char op[arg];
