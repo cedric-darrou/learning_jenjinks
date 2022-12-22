@@ -1,5 +1,6 @@
-//#include "../src/messages.h"
+#include "../src/messages.h"
 #include <assert.h>
+#include <stdio.h>
 
 int addition(int a, int b){
   return(12);

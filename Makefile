@@ -14,7 +14,7 @@ messages.o: messages.c colors.h
 args.o: src/args.c src/args.h src/messages.h src/colors.h
 	$(M) -c src/args.c -o src/args.o
 
-test: test/main.c ../src/messages.o
+test: test/main.c src/messages.o
 	$(M) -o test/main_test test/main.c
 	./test/main_test
 
