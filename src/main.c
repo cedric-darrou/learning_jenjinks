@@ -16,6 +16,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include "args.h"
 #include "colors.h"
@@ -45,4 +46,3 @@ main (int argc, char* argv[])
 
     return EXIT_SUCCESS;
 }
-
